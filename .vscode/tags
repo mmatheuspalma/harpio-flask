@@ -1,0 +1,18 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ComicsModel	../models/comics.py	/^class ComicsModel:$/;"	kind:class	line:4
+app	../app.py	/^app = Flask(__name__)$/;"	kind:variable	line:3
+app.py	../app.py	1;"	kind:file	line:1
+comics.py	../models/comics.py	1;"	kind:file	line:1
+connect	../mysql_connect.py	/^def connect():  $/;"	kind:function	line:4
+getComic	../app.py	/^def getComic(comic_id):$/;"	kind:function	line:10
+getComic	../models/comics.py	/^    def getComic(self):$/;"	kind:member	line:13
+getComics	../app.py	/^def getComics():$/;"	kind:function	line:6
+getComics	../models/comics.py	/^    def getComics(self):$/;"	kind:member	line:5
+mysql_connect.py	../mysql_connect.py	1;"	kind:file	line:1
+mysql_read_db_config.py	../mysql_read_db_config.py	1;"	kind:file	line:1
+read_config	../mysql_read_db_config.py	/^def read_config(filename='.env', section='mysql'):$/;"	kind:function	line:3
